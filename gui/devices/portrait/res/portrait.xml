@@ -3395,7 +3395,7 @@
 
 			<text style="text_m">
 				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>{@select_f_o_f_advanced_text?Select a File or Folder}</text>
+				<text>{@select_f_o_f_advanced_text=Select a File or Folder}</text>
 			</text>
 
 			<template name="sort_options"/>
