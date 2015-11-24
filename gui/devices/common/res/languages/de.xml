@@ -10,10 +10,10 @@
 		<resource name="font_s" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100"/>
 		
 		<!--Other stuff-->
-		<string name="update_part_details">Updating partition details...</string>	
+		<string name="update_part_details">Aktualisiere Partitions-Details...</string>	
 
 		<!-- Mainpage translation -->
-		<string name="install_button_text">Instalieren</string>
+		<string name="install_button_text">Installieren</string>
 		<string name="wipe_button_text">Formatieren</string>
 		<string name="backup_button_text">Sichern</string>
 		<string name="restore_button_text">Wiederherstellen</string>
@@ -23,19 +23,19 @@
 		<string name="reboot_button_text">Neustart</string>
 		
 		<!-- Install translation -->
-		<string name="install_zip_text">Instaliere Zip</string>
-		<string name="install_image_text">Instaliere Image</string>
-		<string name="select_file_from_text">Wähle datei von</string>
+		<string name="install_zip_text">Installiere Zip</string>
+		<string name="install_image_text">Installiere Image</string>
+		<string name="select_file_from_text">Wähle Datei von</string>
 		<string name="select_storage_text">Wähle Speicher</string>
 		
 		<!-- flash-confirm translation -->
-		<string name="install_warning1_text">Dies installiert eventuell incompatible</string>
+		<string name="install_warning1_text">Dies installiert eventuell inkompatible</string>
 		<string name="install_warning2_text">Software und macht das Gerät unbrauchbar!</string>
-		<string name="install_cancel1_text">Drücke zurück u, das hinzufügen der Zip abzubrechen.</string>
+		<string name="install_cancel1_text">Drücke zurück um, das Hinzufügen der Zip abzubrechen.</string>
 		<string name="install_file_text">Datei:</string>
 		<string name="install_folder_text">Ordner:</string>
-		<string name="install_signature_text">Zip Datei signature verification</string>
-		<string name="install_inject_text">Inject TWRP after install</string>
+		<string name="install_signature_text">Zip Datei Signaturprüfung</string>
+		<string name="install_inject_text">Injiziere TWRP nach Installation</string>
 		<string name="install_add_zip_text">Mehr Zips hinzufügen</string>
 		<string name="install_clear_queue_text">Zip Queue leeren</string>
 		<string name="install_swipe_flash_text">Bestätige flash!</string>
@@ -51,12 +51,12 @@
 		<string name="install_reboot_system_text">Systemneustart</string>
 		
 		<!-- flashimage_confirm -->
-		<string name="install_select_target_p_text">Wähle ziel Partition</string>
+		<string name="install_select_target_p_text">Wähle Zielpartition</string>
 		<string name="install_select_partition_text">Wähle Partition zum Image flash:</string>
 		
 		<!-- clear vars translation -->
 		<string name="install_confirm_action_text">Bestätige Aktion</string>
-		<string name="install_cancel2_action_text">Drücke zurück zum abbrechen!</string>
+		<string name="install_cancel2_action_text">Drücke zurück zum Abbrechen!</string>
 		
 		<!-- action translation -->
 		<string name="install_cancel_action_text">Abbrechen</string>
@@ -70,7 +70,7 @@
 		<string name="factory_reset_wip1_text">Formatiert Data, Cache, and Dalvik</string>
 		<string name="factory_reset_wip2_text">(nicht die interne SD)</string>
 		<string name="factory_reset_wip3_text">Meistens ist dies</string>
-		<string name="factory_reset_wip4_text">das einzig nötige.</string>
+		<string name="factory_reset_wip4_text">das einzig Nötige.</string>
 		<string name="android_secure_text">Android Secure</string>
 		<string name="sd_ext_text">SD-EXT</string>
 		<string name="advanced_wipe_text">Erweitertes Formatieren</string>
@@ -87,12 +87,12 @@
 		<!-- formatdata -->
 		<string name="format_data1_text">Das Formatieren von /Data wird alle apps,</string>
 		<string name="format_data2_text">Sicherungen, Bilder und Videos Löschen!</string>
-		<string name="format_data3_text">Entfernt verschlüsselung im internen Speicher!</string>
+		<string name="format_data3_text">Entfernt Verschlüsselung im internen Speicher!</string>
 		<string name="format_data4_text">Dies kann nicht rückgängig gemacht werden!</string>
 		<string name="format_data5_text">Zum Fortfahren "yes" eingeben</string>
 		
 		<!-- partitionoptions -->
-		<string name="p_options_text">Partitions Optionen für:</string>
+		<string name="p_options_text">Partitions-Optionen für:</string>
 		<string name="m_options_text">Mount Punkt:</string>
 		<string name="c_fs_text">Momentanes Dateisystem:</string>
 		<string name="present_y_text">Existent: Ja</string>
@@ -131,10 +131,10 @@
 		<string name="swipe_backup_text">Streiche zum Sichern</string>
 		<string name="enable_compres_text">Aktiviere Komprimierung</string>
 		<string name="skip_md5_g_text">Überspringe MD5 für die Sicherung</string>
-		<string name="disable_space_check_text">Deaktiviere Speicherplatz Prüfung</string>
+		<string name="disable_space_check_text">Deaktiviere Speicherplatzprüfung</string>
 		<string name="backup_name_exists_text">Eine Sicherung mit diesem Namen existiert!</string>
 		<string name="append_date_text">Datum Hinzufügen</string>
-		<string name="encryption_?_text">Sicherung Verschlüsseln?</string>
+		<string name="encryption_?_text">Sicherung verschlüsseln?</string>
 		<string name="enter_pw_text">Passwort eingeben:</string>
 		<string name="pw_wrong_text">Passwort ist falsch!</string>
 		<string name="cancel_text">Abbrechen</string>
@@ -143,7 +143,7 @@
 		
 		<!-- Restore -->
 		<string name="restore_text">Wiederherstellen</string>
-		<string name="select_b_f_text">Wähle sicherung von</string>
+		<string name="select_b_f_text">Wähle Sicherung von</string>
 		<string name="select_p_restore_text">Wähle Wiederherstellungsdatei:</string>
 		<string name="encrypted_b_text">Verschlüsselte Sicherung</string>
 		<string name="enter_pas_text">Passwort eingeben:</string>
@@ -159,14 +159,14 @@
 		<!-- Mount -->
 		<string name="mount_text">Mount</string>
 		<string name="select_p_mount_text">Wähle Partition zum Mounten:</string>
-		<string name="mount_sys_ro_text">Mount System Partition read-only</string>
+		<string name="mount_sys_ro_text">Mounte Systempartition nur mit Lesezugriff</string>
 		<string name="mount_usb_text">Mount USB Speicher</string>
 		<string name="decrypt_data_text">Entschlüssel Data</string>
 		<string name="enable_mtp_text">Aktiviere MTP</string>
 		<string name="disable_mtp_text">Deaktiviere MTP</string>
 		<string name="usb_storage_text">USB Storage</string>
 		<string name="usb_storage_m_text">USB Storage Mounted</string>
-		<string name="remove_safe1_text">Bitte gehen Sie auf Sicher entfernen</string>
+		<string name="remove_safe1_text">Bitte gehen Sie auf Sicher entfernen,</string>
 		<string name="remove_safe2_text">bevor Sie das Gerät abschliessen!</string>
 		<string name="unmount_text">Unmount</string>
 		
@@ -181,11 +181,11 @@
 		<!-- system ro -->
 		<string name="unmodified_sys_text">Nicht modifiziertes System</string>
 		<string name="keep_ro_?_text">Nur Lesezugriff auf das System geben?</string>
-		<string name="keep_ro_?1_text">TWRP kann deine System Partition unberührt lassen</string>
-		<string name="keep_ro_?2_text">dann funktionieren Offizielle Updates vielleicht.</string>
-		<string name="keep_ro_?3_text">TWRP wird nicht in der lage sein das System daran zu hindern</string>
+		<string name="keep_ro_?1_text">TWRP kann deine Systempartition unberührt lassen.</string>
+		<string name="keep_ro_?2_text">Dann funktionieren offizielle Updates vielleicht.</string>
+		<string name="keep_ro_?3_text">TWRP wird nicht in der lage sein, das System daran zu hindern,</string>
 		<string name="keep_ro_?4_text">TWRP zu ersetzten und dir wird nicht die möglichkeit des roots gegeben.</string>
-		<string name="keep_ro_?5_text">Zips zu installieren oder adb kommandos werden</string>
+		<string name="keep_ro_?5_text">Zips zu installieren oder ADB-Kommandos werden</string>
 		<string name="keep_ro_?6_text">vielleicht dennoch das System modifizieren.</string>
 		<string name="never_show_text">Nicht erneut anzeigen</string>
 		<string name="keep_ro_!_text">Nur Lesezugriff</string>		
@@ -194,13 +194,13 @@
 		<!-- Settings translation -->
 		<string name="settings_text">Einstellungen</string>
 		<string name="g_settings_text">Grundeinstellungen</string>
-		<string name="zip_sig_settings_text">Zip Signatur verifizierung</string>
+		<string name="zip_sig_settings_text">Zip Signatur-Verifizierung</string>
 		<string name="rmrf_settings_text">Nutze rm -rf statt zu formatieren</string>
 		<string name="skip_md5_settings_text">Überspringe MD5 generierung während Sicherung</string>
 		<string name="enable_md5_settings_text">Aktiviere MD5 verifizerung von Sicherungen</string>
 		<string name="24_settings_text">Nutze 24-Stunden Uhr</string>
-		<string name="samshit_settings_text">Samsung Navbar Layout</string>
-		<string name="a_theme_settings_text">Simuliere Aktionen zum Theme Testen</string>
+		<string name="samshit_settings_text">Samsung Navigationsleiste Layout</string>
+		<string name="a_theme_settings_text">Simuliere Aktionen zum Theme testen</string>
 		<string name="s_fail_settings_text">Simuliere Fehler zum Testen</string>
 		<string name="language_settings_text">Sprache</string>
 		<string name="restore_settings_text">Standard Wiederherstellen</string>
@@ -215,7 +215,7 @@
 		<string name="c_tz_settings_text">Aktuelle Zeitzone:</string>
 		<string name="s_tz_settings_text">Setze Zeitzone</string>
 		<string name="screen_settings_text">Bildschirm Einstellungen</string>
-		<string name="enable_st_settings_text">Aktiviere Bildschirmpause.</string>
+		<string name="enable_st_settings_text">Aktiviere Bildschirmpause</string>
 		<string name="to_sec_settings_text">Bildschirm ausschalten nach(s):</string>
 		<string name="brig_settings_text">Helligkeit:</string>
 		<string name="vib_settings_text">Vibrationseinstellung</string>
@@ -234,16 +234,16 @@
 		<string name="sidel_advanced_text">ADB Sideload</string>
 		<string name="taoshan_advanced_text">Taoshan</string>
 		<string name="htc_advanced_text">HTC Dumlock</string>
-		<string name="reinject_advanced_text">Re-Inject TWRP</string>
-		<string name="w_sd1_advanced_text">Alle daten werden gelöscht von der SD card!</string>
+		<string name="reinject_advanced_text">Reinjiziere TWRP</string>
+		<string name="w_sd1_advanced_text">Alle Daten werden gelöscht von der SD card!</string>
 		<string name="w_sd2_advanced_text">Dies kann nicht rückgängig gemacht werden!</string>
 		<string name="ext_s_advanced_text">EXT größe:</string>
 		<string name="swap_s_advanced_text">Swap größe:</string>
 		<string name="fs_advanced_text">Dateisystem:</string>
 		<string name="swipe_partition_advanced_text">Streiche zum Partitionieren</string>
-		<string name="ro_boot_advanced_text">Stelle Original Boot wiederher</string>
+		<string name="ro_boot_advanced_text">Stelle Original Boot wieder her</string>
 		<string name="re_recovery_advanced_text">Reflash Recovery</string>
-		<string name="i_htc_advanced_text">Install HTC Dumlock</string>
+		<string name="i_htc_advanced_text">Installiere HTC Dumlock</string>
 		<string name="swipe_ul_advanced_text">Zum Entsperren streichen</string>
 		<string name="select_f_o_f_advanced_text">Wähle eine Datei oder Ordner</string>
 		<string name="chose_a_advanced_text">Wähle aktion</string>
@@ -262,15 +262,15 @@
 		<string name="set_perm_advanced_text">Setze Berechtigung</string>
 		<string name="perm_advanced_text">Berechtigung:</string>
 		<string name="conf_a_advanced_text">Bestätige Aktion</string>
-		<string name="cancel_advanced_text">Dürcke zurück zum Abbrechen.</string>
-		<string name="swipe_conf_advanced_text">Streiche zum bestätigen</string>
+		<string name="cancel_advanced_text">Drücke zurück zum Abbrechen.</string>
+		<string name="swipe_conf_advanced_text">Streiche zum Bestätigen</string>
 		<string name="decrypt_data_advanced_text">Entschlüssel Data</string>
 		<string name="enter_pw_advanced_text">Gebe Passwort ein:</string>
 		<string name="pw_fail_advanced_text">Passwort falsch! Versuchs erneut!</string>
 		<string name="enter_pattern_advanced_text">Muster eingeben:</string>
-		<string name="dd_td_advanced_text">Entschlüssel Data - versuche entschlüsselung</string>
+		<string name="dd_td_advanced_text">Entschlüssel Data - versuche Entschlüsselung</string>
 		<string name="term_c_advanced_text">Kommandozeile</string>
-		<string name="brows_start_advanced_text">Wähle startordner</string>
+		<string name="brows_start_advanced_text">Wähle Startordner</string>
 		<string name="kill_advanced_text">Kill</string>
 		<string name="wipe_d_advanced_text">Formatiere Dalvik Cache</string>
 		<string name="wipe_c_advanced_text">Formatiere Cache</string>
@@ -278,8 +278,8 @@
 		<string name="note_fix_advanced_text">Beachte: Berechtigungen zurücksetzen ist selten nötig.</string>
 		<string name="fix_sel1_advanced_text">Repariere auch SELinux Contexts</string>
 		<string name="fix_sel2_advanced_text">Repariere SELinux Contexts verursacht vielleicht</string>
-		<string name="fix_sel3_advanced_text">das nicht-starten des Geräts.</string>
-		<string name="swipe_perm_advanced_text">Streiche zum reparieren der Berechtigung</string>
+		<string name="fix_sel3_advanced_text">das Nicht-starten des Geräts.</string>
+		<string name="swipe_perm_advanced_text">Streiche zum Reparieren der Berechtigung</string>
 		<string name="reboot_advanced_text">Neustart</string>
 		<string name="su_ch_advanced_text">SuperSU Überprüfung</string>
 		<string name="no_root_advanced_text">Sie haben keine Adminrechte (root).</string>
