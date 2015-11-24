@@ -12,17 +12,17 @@
 		 
         <!-- Mainpage translation -->
         <string name="install_button_text">Instalar</string>
-        <string name="wipe_button_text">Limapr</string>
+        <string name="wipe_button_text">Limpar</string>
         <string name="backup_button_text">Backup</string>
         <string name="restore_button_text">Restaurar</string>
         <string name="mount_button_text">Montar</string>
         <string name="settings_button_text">Configurações</string>
-        <string name="advanced_button_text">Advançado</string>
+        <string name="advanced_button_text">Avançado</string>
         <string name="reboot_button_text">Reiniciar</string>
          
         <!-- Install translation -->
         <string name="install_zip_text">Instalar Zip</string>
-        <string name="install_image_text">Instar Imagem</string>
+        <string name="install_image_text">Instalar Imagem</string>
         <string name="select_file_from_text">Selecionar Arquivo</string>
         <string name="select_storage_text">Selecionar Armazenamento</string>
          
@@ -30,7 +30,7 @@
         <string name="install_warning1_text">Essa operação pode instalar softwares</string>
         <string name="install_warning2_text">incompatíveis e tornar seu dispositivo inutilizável.</string>
         <string name="install_cancel1_text">Pressione Voltar para cancelar a adição desse arquivo zip.</string>
-        <string name="install_file_text">Arqivo:</string>
+        <string name="install_file_text">Arquivo:</string>
         <string name="install_folder_text">Pasta:</string>
         <string name="install_signature_text">Verificação de assinatura do arquivo zip</string>
         <string name="install_inject_text">Injectar TWRP depois da instalação</string>
@@ -141,14 +141,14 @@
         <string name="progress_text">Progresso:</string>
          
         <!-- Restore -->
-        <string name="restore_text">Restorar</string>
+        <string name="restore_text">Restaurar</string>
         <string name="select_b_f_text">Selecionar Backup de</string>
         <string name="select_p_restore_text">Selecionar Pacote para Restauração:</string>
         <string name="encrypted_b_text">Backup Encriptado</string>
         <string name="enter_pas_text">Entrar com a Senha:</string>
         <string name="pw_fail_text">Senha incorreta, por favor, tente novamente!</string>
         <string name="delete_b_text">Deletar Backup</string>
-        <string name="try_dec_text">Backup Encriptado - Trentando Desencriptação</string>
+        <string name="try_dec_text">Backup Encriptado - Tentando Desencriptação</string>
         <string name="b_made_on_text">Backup feito em</string>
         <string name="select_p_restore_text">Selecionar Partições para Restaurar:</string>
         <string name="enable_md5_of_b_text">Ativar Verificação do MD5 dos Arquivos de Backup</string>
@@ -244,10 +244,10 @@
         <string name="ro_boot_advanced_text">Restaurar Boot Original</string>
         <string name="re_recovery_advanced_text">Reflash Recovery</string>
         <string name="i_htc_advanced_text">Install HTC Dumlock</string>
-        <string name="swipe_ul_advanced_text">Swipe to Unlock</string>
+        <string name="swipe_ul_advanced_text">Arraste pra Desbloquear</string>
         <string name="select_f_o_f_advanced_text">Selecionar um Arquivo ou Pasta</string>
         <string name="chose_a_advanced_text">Escolher Ação</string>
-        <string name="selected_advanced_text">selecionado:</string>
+        <string name="selected_advanced_text">Selecionado:</string>
         <string name="cp_f_advanced_text">Copiar Arquivo</string>
         <string name="cp_p_advanced_text">Copiar Pasta</string>
         <string name="move_advanced_text">Mover</string>
@@ -264,18 +264,18 @@
         <string name="conf_a_advanced_text">Confirmar Ação</string>
         <string name="cancel_advanced_text">Pressione voltar para cancelar.</string>
         <string name="swipe_conf_advanced_text">Deslize para Confirmar</string>
-        <string name="decrypt_data_advanced_text">Desencriptar Data</string>
+        <string name="decrypt_data_advanced_text">Desencriptar Dados</string>
         <string name="enter_pw_advanced_text">Entre com a Senha:</string>
         <string name="pw_fail_advanced_text">Senha incorreta, por favor, tente novamente!</string>
         <string name="enter_pattern_advanced_text">Entrar com Padrão:</string>
-        <string name="dd_td_advanced_text">Desencriptar Data - Tentando Desencriptar</string>
+        <string name="dd_td_advanced_text">Desencriptar Dados - Tentando Desencriptar</string>
         <string name="term_c_advanced_text">Comando do Terminal</string>
         <string name="brows_start_advanced_text">Navegar para Pasta Inicial</string>
         <string name="kill_advanced_text">Kill</string>
         <string name="wipe_d_advanced_text">Limpar Dalvik Cache</string>
         <string name="wipe_c_advanced_text">Limpar Cache</string>
         <string name="swipe_sidel_advanced_text">Deslize para iniciar Sideload</string>
-        <string name="note_fix_advanced_text">Nota: Corrigindo as permissões raramente é necessário.</string>
+        <string name="note_fix_advanced_text">Nota: Corrigir as permissões raramente é necessário.</string>
         <string name="fix_sel1_advanced_text">Também corrigir contextos do SELinux</string>
         <string name="fix_sel2_advanced_text">Corrigir os contextos do SELinux pode fazer</string>
         <string name="fix_sel3_advanced_text">com que seu dispositivo não Inicie corretamente.</string>
