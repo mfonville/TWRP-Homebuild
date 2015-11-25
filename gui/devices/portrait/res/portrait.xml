@@ -161,10 +161,10 @@
 				<text>Team Win Recovery Project</text>
 			</text>
 
+
 			<text style="text_m">
-				<condition var1="tw_no_cpu_temp" var2="0"/>
 				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>TWRP v2.8.7.0 - Sdt v1.0</text>
+				<text>TWRP v2.8.7.0 - Sdt v1.5</text>
 			</text>
 
 			<button style="main_button">
@@ -3142,16 +3142,8 @@
 
 			<button style="main_button">
 				<placement x="%center_x%" y="%row19_y%"/>
-				<text>Aroma-FM</text>
-				<actions><action function="queueclear"></action>
-					<action function="set">tw_screen_timeout_temp=%tw_screen_timeout_secs%</action>
-					<action function="set">tw_screen_timeout_secs=0</action>
-					<action function="set">tw_zip_location=/sdcard/TWRP/aroma</action>
-					<action function="set">tw_file=aromafm.zip</action>
-					<action function="set">tw_filename=/sdcard/TWRP/aroma/aromafm.zip</action>
-					<action function="queuezip"></action>
-					<action function="page">flash_confirm</action>
-				</actions>
+				<text>Lockscreen</text>
+	<action function="page">lockscreen1</action>
 			</button>
 
 			
@@ -4417,6 +4409,109 @@
 				<action function="page">main</action>
 			</action>
 		</page>
+
+
+		<page name="lockscreen1">
+			<template name="page"/>
+
+			<text style="text_l">
+				<placement x="%col1_x_header%" y="%row3_header_y%"/>
+				<text>Lockscreen</text>
+			</text>
+
+			<button style="main_button">
+				<placement x="%indent%" y="%row2a_y%"/>
+				<text>Locktest</text>
+				<action function="overlay">lock2</action>
+			</button>
+
+			<button style="main_button">
+				<placement x="%center_x%" y="%row2a_y%"/>
+				<text>Lockset</text>
+				<action function="overlay">lock3</action>
+			</button>
+
+			<action>
+				<touch key="home"/>
+				<action function="page">main</action>
+			</action>
+
+			<action>
+				<touch key="back"/>
+				<action function="page">main</action>
+			</action>
+		</page>
+
+		
+		<page name="lock2">
+			<background color="%semi_transparent%"/>
+	
+			<text style="text_m_accent">
+				<placement x="%center_x%" y="%row2_y%" placement="5"/>
+				<text>{@enter_pattern_advanced_text=Enter Pattern:}</text>
+			</text>
+
+			<patternpassword>
+				<placement x="%pattern_x%" y="%row6_y%" w="%pattern_size%" h="%pattern_size%"/>
+				<dot color="%fileselector_linecolor%" activecolor="%accent_color%" radius="%pattern_dot_dia%"/>
+				<line color="%fileselector_linecolor%" width="%pattern_line_w%"/>
+				<data name="tw_lock_password_entered"/>
+				<action function="overlay"/>
+				<action function="overlay">lock4</action>
+			</patternpassword>
+			<slider>
+				<text>{@swipe_ul_advanced_text=Swipe to Unlock}</text>
+				<action function="overlay"/>
+			</slider>
+		</page>
+
+		
+
+		
+		<page name="lock3">
+			<background color="%semi_transparent%"/>
+	
+			<text style="text_m_accent">
+				<placement x="%center_x%" y="%row2_y%" placement="5"/>
+				<text>{@enter_pattern_advanced_text=Enter Pattern:}</text>
+			</text>
+
+			<patternpassword>
+				<placement x="%pattern_x%" y="%row6_y%" w="%pattern_size%" h="%pattern_size%"/>
+				<dot color="%fileselector_linecolor%" activecolor="%accent_color%" radius="%pattern_dot_dia%"/>
+				<line color="%fileselector_linecolor%" width="%pattern_line_w%"/>
+				<data name="tw_lock_password_1"/>
+				<action function="overlay"/>
+			</patternpassword>
+			<slider>
+				<text>{@swipe_ul_advanced_text=Swipe to Unlock}</text>
+				<action function="overlay"/>
+			</slider>
+		</page>
+
+		
+
+		
+
+		
+		<page name="lock4">
+			
+			<button style="main_button_half_height_full_width">
+				<placement x="%ident%" y="%row8a_y%"/>
+				<condition var1="tw_lock_password_1" op="!=" var2="tw_lock_password_entered"/>
+				<text>Password wrong! try again!</text>
+				<action function="overlay"/>
+				<action function="overlay">lock2</action>
+			</button>
+
+			<slider>
+				<condition var1="tw_lock_password_1" var2="tw_lock_password_entered"/>
+				<text>Password ok! swipe to unlock!</text>
+				<action function="overlay"/>
+			</slider>
+		</page>
+
+		
 			
 
 	</pages>

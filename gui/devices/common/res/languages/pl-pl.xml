@@ -92,7 +92,7 @@
 		<string name="format_data5_text">Type yes to continue.</string>
 		
 		<!-- partitionoptions -->
-		<string name="p_options_text"Opcje partycji dla:</string>
+		<string name="p_options_text">Opcje partycji dla:</string>
 		<string name="m_options_text">Mount Point:</string>
 		<string name="c_fs_text">Aktualny system plików:</string>
 		<string name="present_y_text">Present: Yes</string>
@@ -295,7 +295,8 @@
 		<string name="select_language_advanced_text">Wybierz jezyk</string>
 		<string name="set_language_advanced_text">Ustaw jezyk</string>
 		<string name="cur_language_advanced_text">Aktualny jezyk:</string>		
-		
-		
+
 	</resources>
 </language>
+
+</xml>
