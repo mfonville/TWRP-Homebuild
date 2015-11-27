@@ -218,6 +218,13 @@
 				<text>{@reboot_button_text=Reboot}</text>
 				<action function="page">reboot</action>
 			</button>
+
+			
+			<action>
+				<condition var1="tw_lock_password_set" var2="1"/>
+				<action function="overlay">lock2</action>
+			</action>
+
 		</page>
 
 		<page name="install">
@@ -3366,14 +3373,39 @@
 		<page name="lock">
 			<background color="%semi_transparent%"/>
 
+			<text style="text_m_fail">
+			<placement x="%center_x%" y="%row1_y%" placement="5"/>
+			<text>THIS IS ONLY A CHILDPROTECT! THIS IS NOT SECURE!</text>
+			<condition var1="tw_lock_password_set" var2="1"/>
+			</text>
+
+			<text style="text_m_accent">
+				<placement x="%center_x%" y="%row2_y%" placement="5"/>
+				<text>{@enter_pattern_advanced_text=Enter Pattern:}</text>
+			<condition var1="tw_lock_password_set" var2="1"/>
+			</text>
+
+			<patternpassword>
+				<placement x="%pattern_x%" y="%row6_y%" w="%pattern_size%" h="%pattern_size%"/>
+				<dot color="%fileselector_linecolor%" activecolor="%accent_color%" radius="%pattern_dot_dia%"/>
+				<line color="%fileselector_linecolor%" width="%pattern_line_w%"/>
+				<data name="tw_lock_password_entered"/>
+				<action function="overlay"/>
+				<action function="overlay">lock4</action>
+				<condition var1="tw_lock_password_set" var2="1"/>
+			</patternpassword>
+
+
 			<image>
 				<image resource="unlock_icon"/>
 				<placement x="%center_x%" y="%row10_y%" placement="4"/>
+				<condition var1="tw_lock_password_set" var2="0"/>
 			</image>
 
 			<slider>
 				<text>{@swipe_ul_advanced_text=Swipe to Unlock}</text>
 				<action function="overlay"/>
+				<condition var1="tw_lock_password_set" var2="0"/>
 			</slider>
 		</page>
 
@@ -4422,6 +4454,7 @@
 			<button style="main_button">
 				<placement x="%indent%" y="%row2a_y%"/>
 				<text>Locktest</text>
+				<condition var1="tw_lock_password_set" var2="1"/>
 				<action function="overlay">lock2</action>
 			</button>
 
@@ -4429,6 +4462,13 @@
 				<placement x="%center_x%" y="%row2a_y%"/>
 				<text>Lockset</text>
 				<action function="overlay">lock3</action>
+			</button>
+
+
+			<button style="main_button">
+				<placement x="%indent%" y="%row8_y%"/>
+				<text>Disablelock</text>
+				<action function="set">tw_lock_password_set=0</action>
 			</button>
 
 			<action>
@@ -4441,11 +4481,15 @@
 				<action function="page">main</action>
 			</action>
 		</page>
-
 		
 		<page name="lock2">
 			<background color="%semi_transparent%"/>
-	
+			
+			<text style="text_m_fail">
+				<placement x="%center_x%" y="%row1_y%" placement="5"/>
+				<text>THIS IS ONLY A CHILDPROTECT! THIS IS NOT SECURE!</text>
+			</text>
+
 			<text style="text_m_accent">
 				<placement x="%center_x%" y="%row2_y%" placement="5"/>
 				<text>{@enter_pattern_advanced_text=Enter Pattern:}</text>
@@ -4459,10 +4503,6 @@
 				<action function="overlay"/>
 				<action function="overlay">lock4</action>
 			</patternpassword>
-			<slider>
-				<text>{@swipe_ul_advanced_text=Swipe to Unlock}</text>
-				<action function="overlay"/>
-			</slider>
 		</page>
 
 		
@@ -4481,6 +4521,8 @@
 				<dot color="%fileselector_linecolor%" activecolor="%accent_color%" radius="%pattern_dot_dia%"/>
 				<line color="%fileselector_linecolor%" width="%pattern_line_w%"/>
 				<data name="tw_lock_password_1"/>
+		
+				<action function="set">tw_lock_password_set=1</action>
 				<action function="overlay"/>
 			</patternpassword>
 			<slider>
@@ -4509,6 +4551,8 @@
 				<text>Password ok! swipe to unlock!</text>
 				<action function="overlay"/>
 			</slider>
+			
+			<action function="set">tw_already_unlocked=1</action>
 		</page>
 
 		
@@ -4516,3 +4560,4 @@
 
 	</pages>
 </recovery>
+

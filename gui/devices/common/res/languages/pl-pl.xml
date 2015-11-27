@@ -109,7 +109,7 @@
 		
 		<!-- selectfilesystem -->
 		<string name="change_fs_for_text">Zmień system plików na:</string>
-		<string name="mount_point_text">Mount Point:</string>
+		<string name="mount_point_text">Punkt montowania:</string>
 		<string name="current_fs_text">Aktualny system plików:</string>
 		<string name="incompatible_fs_warn1_text">Some ROMs or kernels may not support some</string>
 		<string name="incompatible_fs_warn2_text">file systems. Proceed with caution!</string>
@@ -121,27 +121,27 @@
 		<string name="f2fs_text">F2FS</string>
 		
 		<!-- Backup -->
-  <string name="backup_text">Kopia zapasowa</string>
-  <string name="storage_text">Pamiec:</string>
-  <string name="encryption_text">Szyfrowanie</string>
-  <string name="name_text">Nazwa:</string>
-  <string name="select_p_t_b_text">Select Partitions to Backup:</string>
-  <string name="select_storage_text">Wybierz pamiec</string>
-  <string name="refresh_sizes_text">Odśwież Rozmiar</string>
-  <string name="swipe_backup_text">Przesuń aby zrobić backup</string>
-  <string name="storage_text">Pamiec:</string>
-  <string name="enable_compres_text">Wlacz kompresje</string>
-  <string name="skip_md5_g_text">Skip MD5 generation during backup</string>
-  <string name="disable_space_check_text">Disable Free Space Check</string>
-  <string name="backup_name_exists_text">A backup with that name already exists!</string>
-  <string name="append_date_text">Append Date</string>
-  <string name="encryption_?_text">Encrypt your Backup?</string>
-  <string name="enter_pw_text">Wpisz haslo:</string>
-  <string name="pw_wrong_text">Passwords do not match!</string>
-  <string name="cancel_text">Anuluj</string>
-  <string name="pw_again_text">Wpisz haslo jeszcze raz:</string>
-  <string name="progress_text">Prostep:</string>
-		
+		<string name="backup_text">Kopia zapasowa</string>
+		<string name="storage_text">Pamiec:</string>
+		<string name="encryption_text">Szyfrowanie</string>
+		<string name="name_text">Nazwa:</string>
+		<string name="select_p_t_b_text">Select Partitions to Backup:</string>
+		<string name="select_storage_text">Wybierz pamiec</string>
+		<string name="refresh_sizes_text">Odśwież Rozmiar</string>
+		<string name="swipe_backup_text">Przesuń aby zrobić backup</string>
+		<string name="storage_text">Pamiec:</string>
+		<string name="enable_compres_text">Wlacz kompresje</string>
+		<string name="skip_md5_g_text">Skip MD5 generation during backup</string>
+		<string name="disable_space_check_text">Disable Free Space Check</string>
+		<string name="backup_name_exists_text">A backup with that name already exists!</string>
+		<string name="append_date_text">Append Date</string>
+		<string name="encryption_?_text">Encrypt your Backup?</string>
+		<string name="enter_pw_text">Wpisz haslo:</string>
+		<string name="pw_wrong_text">Passwords do not match!</string>
+		<string name="cancel_text">Anuluj</string>
+		<string name="pw_again_text">Wpisz haslo jeszcze raz:</string>
+		<string name="progress_text">Prostep:</string>
+				
 		<!-- Restore -->
 		<string name="restore_text">Przywroc</string>
 		<string name="select_b_f_text">Select Backup from</string>
@@ -226,11 +226,11 @@
 		<string name="a_vib_settings_text">Action Vibration:</string>
 		
 		<!-- advanced -->
-		<string name="advanced_text">Advanced</string>
+		<string name="advanced_text">Zaawansowane</string>
 		<string name="cp_log_advanced_text">Copy Log to SD</string>
 		<string name="fix_per_advanced_text">Fix Permissions</string>
 		<string name="part_sd_advanced_text">Partition SD Card</string>
-		<string name="f_m_advanced_text">File Manager</string>
+		<string name="f_m_advanced_text">Menadżer plików</string>
 		<string name="terminal_advanced_text">Terminal</string>
 		<string name="re_theme_advanced_text">Reload Theme</string>
 		<string name="sidel_advanced_text">ADB Sideload</string>
@@ -250,8 +250,8 @@
 		<string name="select_f_o_f_advanced_text">Select a File or Folder</string>
 		<string name="chose_a_advanced_text">Choose Action</string>
 		<string name="selected_advanced_text">selected:</string>
-		<string name="cp_f_advanced_text">Copy File</string>
-		<string name="cp_p_advanced_text">Copy Folder</string>
+		<string name="cp_f_advanced_text">Kopiuj plik</string>
+		<string name="cp_p_advanced_text">Kopiuj folder</string>
 		<string name="move_advanced_text">Move</string>
 		<string name="chmod_755_advanced_text">chmod 755</string>
 		<string name="chmod_advanced_text">chmod</string>
@@ -281,7 +281,7 @@
 		<string name="fix_sel1_advanced_text">Also fix SELinux Contexts</string>
 		<string name="fix_sel2_advanced_text">Fixing SELinux Contexts may cause</string>
 		<string name="fix_sel3_advanced_text">your device to not boot properly.</string>
-		<string name="swipe_perm_advanced_text">Swipe to Fix Permissions</string>
+		<string name="swipe_perm_advanced_text">Przesuń aby naprawić uprawnienia</string>
 		<string name="reboot_advanced_text">Reboot</string>
 		<string name="su_ch_advanced_text">SuperSU Check</string>
 		<string name="no_root_advanced_text">Your device does not appear to be rooted.</string>

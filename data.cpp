@@ -893,6 +893,9 @@ void DataManager::SetDefaultValues()
 	mValues.insert(make_pair("tw_language", make_pair(EXPAND(TW_DEFAULT_LANGUAGE), 1)));
 	LOGINFO("LANG: %s\n", EXPAND(TW_DEFAULT_LANGUAGE));
 
+	mValues.insert(make_pair("tw_lock_password_1", make_pair("0", 1)));
+	mValues.insert(make_pair("tw_lock_password_set", make_pair("0", 1)));
+
 	pthread_mutex_unlock(&m_valuesLock);
 }
 

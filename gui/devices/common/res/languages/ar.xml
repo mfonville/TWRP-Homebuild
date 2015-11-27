@@ -3,11 +3,11 @@
     <display>العربية</display>
     <resources>
 	<resource name="fixed" type="fontoverride" filename="DroidSansMono.ttf" scale="100" />
-	<resource name="font_l" type="fontoverride"  filename="RobotoCondensed-Regular.ttf" scale="100"/>
-	<resource name="font_m" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100"/>
-	<resource name="font_s" type="fontoverride" filename="RobotoCondensed-Regular.ttf" scale="100"/>
-		
-        <string name="install_button_text">تثبيت</string>
+	<resource name="font_l" type="fontoverride"  filename="DroidNaskh-Regular.ttf" scale="100"/>
+	<resource name="font_m" type="fontoverride" filename="DroidNaskh-Regular.ttf" scale="100"/>
+	<resource name="font_s" type="fontoverride" filename="DroidNaskh-Regular.ttf" scale="100"/>
+
+	<string name="install_button_text">تثبيت</string>
         <string name="wipe_button_text">مسح</string>
         <string name="backup_button_text">نسخة احتياطية</string>
         <string name="restore_button_text">استعادة</string>
