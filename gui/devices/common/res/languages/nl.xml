@@ -25,21 +25,21 @@
 		<!-- Install translation -->
 		<string name="install_zip_text">Installeer Zip</string>
 		<string name="install_image_text">Installeer Image</string>
-		<string name="select_file_from_text">Selecteer Bestand uit</string>
+		<string name="select_file_from_text">Selecteer Bestand van</string>
 		<string name="select_storage_text">Selecteer Opslag</string>
 		
 		<!-- flash-confirm translation -->
 		<string name="install_warning1_text">Deze bewerking kan niet-compatibele software</string>
 		<string name="install_warning2_text">installeren en het apparaat onbruikbaar maken.</string>
-		<string name="install_cancel1_text">Druk terug om het toevoegen van dit Zip te annuleren.</string>
+		<string name="install_cancel1_text">Druk terug om het toevoegen van deze Zip te annuleren.</string>
 		<string name="install_file_text">Bestand:</string>
 		<string name="install_folder_text">Map:</string>
 		<string name="install_signature_text">Zip bestand handtekening verificatie</string>
 		<string name="install_inject_text">Injecteer TWRP na de installatie</string>
 		<string name="install_add_zip_text">Voeg meer Zips</string>
-		<string name="install_clear_queue_text">Wachtrij van de Zips opruimen</string>
+		<string name="install_clear_queue_text">Zip Wachtrij leegmaken</string>
 		<string name="install_swipe_flash_text">Veeg om Flashen te bevestigen</string>
-		<string name="install_max_of_text">van de max van 10 Bestanden in de wachtrij</string>
+		<string name="install_max_of_text">van max 10 Bestanden in de wachtrij</string>
 		
 		
 		<!-- Flash zip translation -->
@@ -47,16 +47,16 @@
 		
 		<!-- Flash done translaton -->
 		<string name="install_failed_text">Gefaald</string>
-		<string name="install_successful_text">Successvol</string>
+		<string name="install_successful_text">Succesvol</string>
 		<string name="install_reboot_system_text">Herstart Systeem</string>
 		
 		<!-- flashimage_confirm -->
-		<string name="install_select_target_p_text">Selecteer doel Partitie</string>
+		<string name="install_select_target_p_text">Selecteer Doel Partitie</string>
 		<string name="install_select_partition_text">Selecteer Partitie om Image te Flashen:</string>
 		
 		<!-- clear vars translation -->
 		<string name="install_confirm_action_text">Actie bevestigen</string>
-		<string name="install_cancel2_action_text">Druk terug knop om te annuleren.</string>
+		<string name="install_cancel2_action_text">Druk terug om te annuleren.</string>
 		
 		<!-- action translation -->
 		<string name="install_cancel_action_text">Annuleren</string>
@@ -70,7 +70,7 @@
 		<string name="factory_reset_wip1_text">Wist Data, Cache and Dalvik</string>
 		<string name="factory_reset_wip2_text">(niet met inbegrip van interne opslag)</string>
 		<string name="factory_reset_wip3_text">Meestal is dit de enige</string>
-		<string name="factory_reset_wip4_text">Wis actie dat je nodig hebt.</string>
+		<string name="factory_reset_wip4_text">Wis-actie die je nodig hebt.</string>
 		<string name="android_secure_text">Android Secure</string>
 		<string name="sd_ext_text">SD-EXT</string>
 		<string name="advanced_wipe_text">Geavanceerd Wissen</string>
@@ -85,11 +85,11 @@
 		<string name="swipe_wipe_text">Veeg om te Wissen</string>
 		
 		<!-- formatdata -->
-		<string name="format_data1_text">Formatteren van Data zal al je apps, backups,</string>
-		<string name="format_data2_text">fotos, videos, media wissen en verwijdert</string>
+		<string name="format_data1_text">Formatteren van Data zal al je app's, backup's,</string>
+		<string name="format_data2_text">foto's, video's, media wissen en verwijdert</string>
 		<string name="format_data3_text">encryptie op interne opslag.</string>
 		<string name="format_data4_text">Dit kan niet ongedaan gemaakt worden. Druk terug om te annuleren.</string>
-		<string name="format_data5_text">Typ "ja" om voort te zetten.</string>
+		<string name="format_data5_text">Typ "yes" om voort te zetten.</string>
 		
 		<!-- partitionoptions -->
 		<string name="p_options_text">Partitie Opties voor:</string>
@@ -111,8 +111,8 @@
 		<string name="change_fs_for_text">Wijzig Bestandssysteem voor:</string>
 		<string name="mount_point_text">Koppelpunt:</string>
 		<string name="current_fs_text">Huidige bestandssysteem:</string>
-		<string name="incompatible_fs_warn1_text">Sommige ROMs of Kernels kunnen geen ondersteuning bieden</string>
-		<string name="incompatible_fs_warn2_text">voor sommige bestandssystemen. Ga voorzichtig verder!</string>
+		<string name="incompatible_fs_warn1_text">Sommige ROM's of Kernel's kunnen geen ondersteuning bieden</string>
+		<string name="incompatible_fs_warn2_text">voor sommige bestandssystemen. Handel voorzichtig!</string>
 		<string name="ext2_text">EXT2</string>
 		<string name="ext3_text">EXT3</string>
 		<string name="ext4_text">EXT4</string>
@@ -132,7 +132,7 @@
 		<string name="storage_text">Opslag:</string>
 		<string name="enable_compres_text">Compressie inschakelen</string>
 		<string name="skip_md5_g_text">Sla MD5 generatie over tijdens reservekopie</string>
-		<string name="disable_space_check_text">Vrije ruimte check uitschakelen</string>
+		<string name="disable_space_check_text">Vrijeruimte-check uitschakelen</string>
 		<string name="backup_name_exists_text">Een reservekopie met die naam bestaat al!</string>
 		<string name="append_date_text">Voeg Datum</string>
 		<string name="encryption_?_text">Versleutel uw Reservekopie?</string>
@@ -150,7 +150,7 @@
 		<string name="enter_pas_text">Voer Wachtwoord in:</string>
 		<string name="pw_fail_text">Wachtwoord is mislukt, probeer het opnieuw!</string>
 		<string name="delete_b_text">Verwijder Reservekopie</string>
-		<string name="try_dec_text">Versleutelde Reservekopie - Proberen te Ontsleutelen</string>
+		<string name="try_dec_text">Versleutelde Reservekopie - Probeert te Ontsleutelen</string>
 		<string name="b_made_on_text">Reservekopie gemaakt op</string>
 		<string name="select_p_restore_text">Selecteer Partities om te Herstellen:</string>
 		<string name="enable_md5_of_b_text">MD5 Verificatie van Reservekopie Bestanden inschakelen</string>
@@ -173,7 +173,7 @@
 		<string name="unmount_text">Ontkoppel</string>
 		
 		<!-- rebootmenu -->
-		<string name="reboot_m_text">Reboot Menu</string>
+		<string name="reboot_m_text">Herstart Menu</string>
 		<string name="system_text">Systeem</string>
 		<string name="power_off_text">Uitschakelen</string>
 		<string name="recovery_text">Recovery</string>
@@ -182,7 +182,7 @@
 		
 		<!-- system ro -->
 		<string name="unmodified_sys_text">Ongewijzigde Systeem Partitie</string>
-		<string name="keep_ro_?_text">Houdt het Systeem Alleen lezen?</string>
+		<string name="keep_ro_?_text">Systeem in alleen-lezen modus behouden?</string>
 		<string name="keep_ro_?1_text">TWRP kan uw systeem partitie ongewijzigd laten om het</string>
 		<string name="keep_ro_?2_text">voor u makkelijker te maken om officiële updates te nemen.</string>
 		<string name="keep_ro_?3_text">TWRP zal niet in staat zijn om te voorkomen dat de stock ROM</string>
@@ -202,8 +202,8 @@
 		<string name="enable_md5_settings_text">MD5 Verificatie van Reservekopie Bestanden inschakelen</string>
 		<string name="24_settings_text">Gebruik 24-uurs Klok</string>
 		<string name="samshit_settings_text">Samsung Navigatiebalk Opmaak</string>
-		<string name="a_theme_settings_text">Simuleren acties voor thema testen</string>
-		<string name="s_fail_settings_text">Simuleren mislukking voor acties</string>
+		<string name="a_theme_settings_text">Simuleer acties voor thema testen</string>
+		<string name="s_fail_settings_text">Simuleer mislukking voor acties</string>
 		<string name="language_settings_text">Taal</string>
 		<string name="restore_settings_text">Standaardinstellingen Herstellen</string>
 		<string name="tz_settings_text">Tijdzone Instellingen</string>
@@ -213,23 +213,23 @@
 		<string name="15_settings_text">15</string>
 		<string name="30_settings_text">30</string>
 		<string name="45_settings_text">45</string>
-		<string name="dst_settings_text">Gebruik zomertijd (DST)</string>
+		<string name="dst_settings_text">Gebruik zomertijd</string>
 		<string name="c_tz_settings_text">Huidige Tijdzone:</string>
 		<string name="s_tz_settings_text">Tijdzone Instellen</string>
-		<string name="screen_settings_text">Scherm Instellingen</string>
-		<string name="enable_st_settings_text">Scherm timeout inschakelen.</string>
-		<string name="to_sec_settings_text">Scherm timeout in seconden:</string>
+		<string name="screen_settings_text">Scherminstellingen</string>
+		<string name="enable_st_settings_text">Scherm-timeout inschakelen.</string>
+		<string name="to_sec_settings_text">Scherm-timeout in seconden:</string>
 		<string name="brig_settings_text">Helderheid:</string>
-		<string name="vib_settings_text">Trilling Instellingen</string>
-		<string name="b_vib_settings_text">Knop Trilling:</string>
-		<string name="k_vib_settings_text">Toetsenbord Trilling:</string>
-		<string name="a_vib_settings_text">Actie Trilling:</string>
+		<string name="vib_settings_text">Trillingsinstellingen</string>
+		<string name="b_vib_settings_text">Knoptrilling:</string>
+		<string name="k_vib_settings_text">Toetsenbordtrilling:</string>
+		<string name="a_vib_settings_text">Actietrilling:</string>
 		
 		<!-- advanced -->
 		<string name="advanced_text">Geavanceerd</string>
 		<string name="cp_log_advanced_text">Kopieer Log naar SD</string>
-		<string name="fix_per_advanced_text">Fix Machtigingen</string>
-		<string name="part_sd_advanced_text">Partitioneren SD Card</string>
+		<string name="fix_per_advanced_text">Herstel Permissies</string>
+		<string name="part_sd_advanced_text">Partitioneren SD Kaart</string>
 		<string name="f_m_advanced_text">Bestandsbeheer</string>
 		<string name="terminal_advanced_text">Terminal</string>
 		<string name="re_theme_advanced_text">Thema Herladen</string>
@@ -237,7 +237,7 @@
 		<string name="taoshan_advanced_text">Taoshan</string>
 		<string name="htc_advanced_text">HTC Dumlock</string>
 		<string name="reinject_advanced_text">Re-Inject TWRP</string>
-		<string name="w_sd1_advanced_text">U zult alle bestanden op uw SD card verliezen!</string>
+		<string name="w_sd1_advanced_text">U zult alle bestanden op uw SD kaart verliezen!</string>
 		<string name="w_sd2_advanced_text">Deze actie kan niet ongedaan gemaakt worden!</string>
 		<string name="ext_s_advanced_text">EXT Grootte:</string>
 		<string name="swap_s_advanced_text">Swap Grootte:</string>
@@ -261,8 +261,8 @@
 		<string name="select_destin_advanced_text">Selecteer de Doelmap</string>
 		<string name="rename_advanced_text">Hernoemen</string>
 		<string name="name_advanced_text">Naam:</string>
-		<string name="set_perm_advanced_text">Machtigingen Instellen</string>
-		<string name="perm_advanced_text">Machtigingen:</string>
+		<string name="set_perm_advanced_text">Permissies Instellen</string>
+		<string name="perm_advanced_text">Permissies:</string>
 		<string name="conf_a_advanced_text">Bevestigen Actie</string>
 		<string name="cancel_advanced_text">Druk terug knop om te annuleren.</string>
 		<string name="swipe_conf_advanced_text">Veeg om te Bevestigen</string>
@@ -270,18 +270,18 @@
 		<string name="enter_pw_advanced_text">Voer Wachtwoord in:</string>
 		<string name="pw_fail_advanced_text">Wachtwoord is mislukt, probeer het opnieuw!</string>
 		<string name="enter_pattern_advanced_text">Voer Patroon in:</string>
-		<string name="dd_td_advanced_text">Versleutelde Data - Proberen te Ontsleutelen</string>
+		<string name="dd_td_advanced_text">Versleutelde Data - Probeert te Ontsleutelen</string>
 		<string name="term_c_advanced_text">Terminal Opdracht</string>
-		<string name="brows_start_advanced_text">Blader naar het Start Map</string>
+		<string name="brows_start_advanced_text">Blader naar de Startmap</string>
 		<string name="kill_advanced_text">Doden</string>
 		<string name="wipe_d_advanced_text">Wis Dalvik Cache</string>
 		<string name="wipe_c_advanced_text">Wis Cache</string>
 		<string name="swipe_sidel_advanced_text">Veeg om Sideload te starten</string>
-		<string name="note_fix_advanced_text">Opmerking: Het fixen van machtigingen is zelden nodig.</string>
-		<string name="fix_sel1_advanced_text">Fix ook SELinux Context</string>
-		<string name="fix_sel2_advanced_text">Het fixen van SELinux Context kan ertoe</string>
+		<string name="note_fix_advanced_text">Opmerking: Het herstellen van permissies is zelden nodig.</string>
+		<string name="fix_sel1_advanced_text">Herstel ook SELinux Context</string>
+		<string name="fix_sel2_advanced_text">Het herstellen van de SELinux Context kan ertoe</string>
 		<string name="fix_sel3_advanced_text">leiden dat uw apparaat niet goed opstart.</string>
-		<string name="swipe_perm_advanced_text">Veeg om Machtigingen te fixen</string>
+		<string name="swipe_perm_advanced_text">Veeg om Permissies te fixen</string>
 		<string name="reboot_advanced_text">Herstarten</string>
 		<string name="su_ch_advanced_text">SuperSU Check</string>
 		<string name="no_root_advanced_text">Uw apparaat lijkt niet geroot te zijn.</string>
